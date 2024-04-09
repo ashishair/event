@@ -1,0 +1,204 @@
+/* General Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(239, 217, 221);
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family:'allura';
+
+  }
+  
+.link span{background-color: #450d16; 
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5p
+
+}
+  h2,h3 {
+    font-size: 300%;
+  }
+   .article{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 1rem;
+    font-size: 150%;
+    
+    
+  }
+  
+  a {
+    color: #fbf5f7; /* Vibrant Red - Inspired by Holi */
+    text-decoration: none;
+  }
+  
+  
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  img {
+    width:fit-content;
+    height: auto;
+  }
+  
+  /* Header Styles */
+  header {
+    
+   
+    background-color: #ab531c; /* Light Beige - Inspired by Desert Forts */
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url("bc2.jpg");
+
+  }
+  .test {
+    display: flex;
+    font-style: italic;
+  }
+  
+  h1 {
+    color: #f3f5f4; /* Deep Brown - Inspired by Thar Desert */
+  }
+  header p{
+    color: #040403;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color:#450d16;
+    border-bottom: 1px solid #0b0606;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+  }
+  
+  nav a:active {
+    background-color: #f0f0f0;
+  }
+  
+  /* Main Content Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #e71f1f;
+    padding-bottom: 2rem;
+  }
+  
+  .services-container,
+  .gallery-container,
+  .founders{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 0.1rem;
+  }
+  .testimonials-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 0.1rem;
+  }
+  .services-container article 
+{ 
+  width: 40vw;
+  background-color: rgb(239, 217, 221);
+  padding: 25px;
+}
+  .gallery-container img,
+  .founders article,
+  .testimonials-container blockquote {
+    width:  calc(33% - 2rem);
+    
+  }
+  .dimension{
+    width: 100%;
+    height: 100%;
+  }
+  /* About Us Styles */
+  .founders img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Blog Styles */
+  #blog a {
+    background-color: #c02942; /* Vibrant Red - Inspired by Holi */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Contact Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input,
+  form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #c02942; /* Vibrant Red - Inspired by Holi */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Social Media Links (Assuming placement in footer) */
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .social-media li {
+    margin: 0 1rem;
+  }
+  
+  .social-media li a {
+    color: #c02942; /* Vibrant Red - Inspired by Holi */
+  }
+
+  
+  /* Responsiveness - Adjust as needed for different breakpoints */
+  @media (max-width: 768px) {
+    .services-container article,
+    .gallery-container img,
+    .founders article,
+    .testimonials-container blockquote {
+      width: 100%;
+    }
+
+  }
+  
